@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Shortner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>LINK SHORTNER</h1>
+        <div id="errors"><span id="errorText">
+            text holder
+        </span>
+            <img id="closeImg" src="img/close.png" alt="">
+        </div>
+        <form id="shortenForm">
+            <input type="text" name="longLink" id="" placeholder="Enter your link...">
+            <button type="submit">Shorten Link</button>
+            <p id="trackLink">Or track the total of clicks from a shortened link</p>
+        </form>
+        <div id="output">
+            <input type="text" id="outputField">
+            <button id="copyBtn">Copy</button>
+            <p id="trackShortened">Track the total of clicks from this shortened URL</p>
+        </div>
+        <form id="trackerForm">
+            <input type="text" id="trackField">
+            <button id="trackBtn">Track</button>
+            <p id="shortenNew">Shorten another Link</p>
+        </form>
+        <div id=clicksContainer>
+            <h1 id="clicksHolder">2</h1>
+            <button id="refreshTracker">Refresh</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
